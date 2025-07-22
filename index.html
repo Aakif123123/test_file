@@ -247,7 +247,7 @@
           f.style.top = Math.random() * 100 + '%';
           f.style.setProperty('--x', (Math.random() - 0.5) * 600 + 'px');
           f.style.setProperty('--y', (Math.random() - 0.5) * 600 + 'px');
-          f.style.background = hsl(${Math.random() * 360}, 100%, 70%);
+f.style.background = `hsl(${Math.random() * 360}, 100%, 70%)`;
           container.appendChild(f);
           setTimeout(() => f.remove(), 2500);
         }
